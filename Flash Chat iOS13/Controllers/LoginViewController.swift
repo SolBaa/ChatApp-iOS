@@ -24,7 +24,7 @@ class LoginViewController: UIViewController {
                     print(e)
                 }else{
                     // navigate to the chattapp
-                    self.performSegue(withIdentifier: Constants.loginSegue , sender: self)
+                    self.performSegue(withIdentifier: K.loginSegue , sender: self)
                 }
               
             }
